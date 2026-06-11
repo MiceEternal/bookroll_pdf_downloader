@@ -2,7 +2,7 @@
 
 # BookRoll PDF Downloader
 
-A Chrome extension that captures all pages from a [BookRoll](https://www.let.media.kyoto-u.ac.jp/project/digital-teaching-material-delivery-system-bookroll/) e-textbook and saves them as a single PDF.
+A Chrome extension that captures all pages from Kyushu University BookRoll e-textbook and saves them as a single PDF.
 
 ## Installation
 
@@ -16,7 +16,7 @@ A Chrome extension that captures all pages from a [BookRoll](https://www.let.med
 
 1. Open a BookRoll material page in Chrome
 2. Click the extension icon
-3. Click **Scan Pages** — the extension will automatically navigate through all pages
+3. Click **Scan Pages** — the extension will automatically navigate through all pages,There will be a pause for a few seconds on the last page; please wait for it to finish
 4. Once scanning is complete, click **Download PDF**
 
 ## Notes
