@@ -2,7 +2,7 @@
 
 # BookRoll PDF ダウンローダー
 
-[BookRoll](https://www.let.media.kyoto-u.ac.jp/project/digital-teaching-material-delivery-system-bookroll/) の電子教材を全ページ自動でキャプチャし、1つのPDFとして保存するChrome拡張機能です。
+九州大学BookRollの電子教材を全ページ自動でキャプチャし、1つのPDFとして保存するChrome拡張機能です。
 
 ## インストール方法
 
@@ -16,7 +16,7 @@
 
 1. ChromeでBookRollの教材ページを開く
 2. 拡張機能のアイコンをクリックする
-3. **Scan Pages** をクリック — 自動的に全ページをめくりながらキャプチャする
+3. **Scan Pages** をクリック — 自動的に全ページをめくりながらキャプチャする，最終ページで数秒間一時停止しますので、完了するまでお待ちください
 4. スキャン完了後、**Download PDF** をクリックする
 
 ## 注意事項
