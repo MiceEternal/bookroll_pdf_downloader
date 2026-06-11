@@ -1,3 +1,5 @@
+[English](README.md) | [日本語](README.ja.md) | [中文](README.zh.md)
+
 # BookRoll PDF Downloader
 
 A Chrome extension that captures all pages from a [BookRoll](https://www.let.media.kyoto-u.ac.jp/project/digital-teaching-material-delivery-system-bookroll/) e-textbook and saves them as a single PDF.
