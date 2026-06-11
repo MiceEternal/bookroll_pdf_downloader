@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 280px;
+      padding: 16px;
+      font-family: sans-serif;
+      font-size: 14px;
+      background: #1a1a2e;
+      color: #eee;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 16px;
+      color: #e94560;
+    }
+    .info {
+      background: #16213e;
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 12px;
+      font-size: 12px;
+      color: #aaa;
+    }
+    #status {
+      margin-bottom: 10px;
+      min-height: 20px;
+      font-size: 12px;
+      color: #7ec8e3;
+    }
+    #progress-bar {
+      width: 100%;
+      height: 8px;
+      background: #16213e;
+      border-radius: 4px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      display: none;
+    }
+    #progress-fill {
+      height: 100%;
+      background: #e94560;
+      border-radius: 4px;
+      width: 0%;
+      transition: width 0.3s;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 8px;
+    }
+    #btn-scan { background: #0f3460; color: #fff; }
+    #btn-download { background: #e94560; color: #fff; display: none; }
+    #btn-scan:hover { background: #1a4a8a; }
+    #btn-download:hover { background: #c73652; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <h2>📚 BookRoll Downloader</h2>
+  <div class="info">
+    Click <strong>Scan Pages</strong> to capture all pages automatically, then click <strong>Download PDF</strong>.
+  </div>
+  <div id="status">Click "Scan Pages" to begin.</div>
+  <div id="progress-bar"><div id="progress-fill"></div></div>
+  <button id="btn-scan">🔍 Scan Pages</button>
+  <button id="btn-download">⬇️ Download PDF</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
